@@ -1,10 +1,10 @@
 #include "main.h"
 #include<stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 
 /**
- * main - print arguments
+ * main - print args
  * @argv: vector
  * @argc: count
  *
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		for (a = 1; b < strlen(c); b++)
+		for (a = 1; a < argc; a++)
 		{
 			c = argv[a];
 
