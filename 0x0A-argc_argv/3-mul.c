@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - print arguments
+ * main - print arg
  * @argv: vector
  * @argc: count
  *
@@ -15,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		a = atoi(argv[1]);
-		b = atoi(argc[2]);
+		b = atoi(argv[2]);
 		printf("%d\n", a * b);
 	}
 	else
